@@ -1,0 +1,12 @@
+{
+  "name": "hongxu/FrigateTracker",
+  "description": "a tool for debug online",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "hongxu",
+      "email": "cnbrucehong@gmail.com"
+    }
+  ],
+  "require": {}
+}
