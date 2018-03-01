@@ -1,0 +1,17 @@
+{
+  "name": "hongxu/Frigate",
+  "description": "a tool for debug online",
+  "license": "GPL v3",
+  "authors": [
+    {
+      "name": "hongxu",
+      "email": "cnbrucehong@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Frigate": "core"
+    }
+  },
+  "require": {}
+}
