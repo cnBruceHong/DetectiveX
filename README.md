@@ -1,4 +1,4 @@
-# Frigate
+# DetectiveX
 
 一款能够用于线上环境进行PHP在线debug的工具
 
