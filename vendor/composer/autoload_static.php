@@ -4,11 +4,72 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit43b04ca4ce311f2ba00c00873e1bf39e
+class ComposerStaticInit11442dbae2f5df4720caef85e1eccb6f
 {
+    public static $prefixLengthsPsr4 = array (
+        'S' => 
+        array (
+            'Symfony\\Component\\Routing\\' => 26,
+        ),
+        'P' => 
+        array (
+            'Psr\\Log\\' => 8,
+            'Psr\\Container\\' => 14,
+        ),
+        'M' => 
+        array (
+            'Monolog\\' => 8,
+        ),
+        'D' => 
+        array (
+            'DetectiveX\\Core\\' => 16,
+            'DetectiveX\\App\\' => 15,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'Symfony\\Component\\Routing\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/routing',
+        ),
+        'Psr\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
+        'Psr\\Container\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/container/src',
+        ),
+        'Monolog\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
+        ),
+        'DetectiveX\\Core\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/core',
+        ),
+        'DetectiveX\\App\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app',
+        ),
+    );
+
+    public static $prefixesPsr0 = array (
+        'P' => 
+        array (
+            'Pimple' => 
+            array (
+                0 => __DIR__ . '/..' . '/pimple/pimple/src',
+            ),
+        ),
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
+            $loader->prefixLengthsPsr4 = ComposerStaticInit11442dbae2f5df4720caef85e1eccb6f::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit11442dbae2f5df4720caef85e1eccb6f::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit11442dbae2f5df4720caef85e1eccb6f::$prefixesPsr0;
 
         }, null, ClassLoader::class);
     }

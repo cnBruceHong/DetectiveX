@@ -1,5 +1,5 @@
 {
-  "name": "hongxu/Frigate",
+  "name": "hongxu/DetectiveX",
   "description": "a tool for debug online",
   "license": "GPL v3",
   "authors": [
@@ -10,8 +10,13 @@
   ],
   "autoload": {
     "psr-4": {
-      "Frigate": "core"
+      "DetectiveX\\App\\": "app",
+      "DetectiveX\\Core\\": "core"
     }
   },
-  "require": {}
+  "require": {
+    "pimple/pimple": "^3.0",
+    "monolog/monolog": "^1.23",
+    "symfony/routing": "^4.0"
+  }
 }
