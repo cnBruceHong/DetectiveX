@@ -8,11 +8,12 @@
 
 namespace DetectiveX\App\controller;
 
+use DetectiveX\Core\Framework\Helper;
 
 class IndexController
 {
     public function index()
     {
-        
+        $ip = $container['helper']::get_client_ip();
     }
 }

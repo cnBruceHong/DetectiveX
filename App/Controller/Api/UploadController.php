@@ -11,5 +11,8 @@ namespace DetectiveX\App\Controller\Api;
 
 class UploadController
 {
-
+    public function index()
+    {
+        $container = app('app');
+    }
 }
