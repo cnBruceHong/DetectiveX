@@ -11,15 +11,15 @@ return [
      * 系统全局配置
      * */
     'app' => [
-        'host' => 'https://debug.bbs.sui.com',
+        'host' => '',
 
         'database' => [
             'driver'    => 'mysql',
-            'host'      => '192.168.1.53',
+            'host'      => '',
             'port'      => '3306',
-            'database'  => 'detectivex',
-            'username'  => 'oooo',
-            'password'  => 'xxxx',
+            'database'  => '',
+            'username'  => '',
+            'password'  => '',
             'charset'   => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
             'prefix'    => 'dx_',
