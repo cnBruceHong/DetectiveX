@@ -6,5 +6,9 @@
  * Time: 00:52
  */
 return [
-
+    'GET'  => [
+        '/' => 'Web\\DashboardController@index',
+    ],
+    'POST' => [],
+    'ALL'  => [],
 ];

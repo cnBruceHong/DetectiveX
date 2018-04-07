@@ -19,10 +19,6 @@ class ComposerStaticInit11442dbae2f5df4720caef85e1eccb6f
         array (
             'Webmozart\\Assert\\' => 17,
         ),
-        'S' => 
-        array (
-            'Symfony\\Component\\Routing\\' => 26,
-        ),
         'P' => 
         array (
             'Psr\\Log\\' => 8,
@@ -51,10 +47,6 @@ class ComposerStaticInit11442dbae2f5df4720caef85e1eccb6f
         'Webmozart\\Assert\\' => 
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
-        ),
-        'Symfony\\Component\\Routing\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/routing',
         ),
         'Psr\\Log\\' => 
         array (
@@ -96,6 +88,13 @@ class ComposerStaticInit11442dbae2f5df4720caef85e1eccb6f
             'Pimple' => 
             array (
                 0 => __DIR__ . '/..' . '/pimple/pimple/src',
+            ),
+        ),
+        'B' => 
+        array (
+            'Bramus' => 
+            array (
+                0 => __DIR__ . '/..' . '/bramus/router/src',
             ),
         ),
     );

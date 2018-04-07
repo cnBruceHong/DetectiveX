@@ -5,6 +5,7 @@
  * Date: 2018/4/1
  * Time: 00:51
  */
+require_once __DIR__ . '/functions.php';
 
 if (file_exists(__DIR__ . '/../Runtime/.dev')) {
     /* 开发环境，开启调试和错误输出 */
@@ -21,17 +22,21 @@ $container = new \Pimple\Container();
 
 /* 加载配置 */
 $container['config'] = function () {
-    return new \DetectiveX\Core\Framework\Config(require_once __DIR__ . '/../App/Config/web.php');
+    return new \DetectiveX\Core\Framework\Config(
+        require_once __DIR__ . '/../App/Config/web.php'
+    );
 };
 
 /* 加载路由类 */
-$container['router'] = function () {
-
+$container['route'] = function () {
+    return new \DetectiveX\App\Service\Router(
+        require_once __DIR__ . '/../App/Config/router.php'
+    );
 };
 
 /* 注册助手类 */
 $container['helper'] = function () {
-    return \DetectiveX\Core\Framework\Helper::class;
+    // TODO: 暂时没想好那些是被需要的助手类
 };
 
 /* 注册应用类 */
