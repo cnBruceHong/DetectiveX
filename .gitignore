@@ -234,5 +234,8 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Runtime
+/Runtime/Log/*.log
+/Runtime/Data/
 
 # End

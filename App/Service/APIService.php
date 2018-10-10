@@ -19,6 +19,9 @@ class APIService
     {
     }
 
+    /**
+     * 上传接口
+     */
     public function upload()
     {
 

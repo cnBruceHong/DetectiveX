@@ -11,6 +11,7 @@ namespace DetectiveX\Core\Framework;
 
 /**
  * 助手类
+ *
  * @package DetectiveX\Core\Framework
  */
 class Helper

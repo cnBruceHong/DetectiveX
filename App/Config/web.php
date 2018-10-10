@@ -39,20 +39,6 @@ return [
 
         'cipher'   => 'AES-256-CBC',
 
-        /*
-         * 数据库配置
-         * */
-        'database' => [
-            'driver'    => 'mysql', // TODO: 需要支持更多的 Driver
-            'host'      => '',
-            'port'      => '3306',
-            'database'  => '',
-            'username'  => '',
-            'password'  => '',
-            'charset'   => 'utf8mb4',
-            'collation' => 'utf8mb4_unicode_ci',
-            'prefix'    => 'dx_',
-        ],
     ],
 
     /*

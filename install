@@ -1,2 +1,2 @@
-#env php
+#!env /bin/php
 echo "Hello";

@@ -15,7 +15,6 @@ class DashboardController extends Auth
 {
     public function index()
     {
-        throw new \Exception('Test your log');
-        var_dump('index');die;
+        var_dump('index');
     }
 }

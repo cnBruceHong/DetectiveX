@@ -36,7 +36,7 @@ $container['route'] = function () {
 
 /* 注册助手类 */
 $container['helper'] = function () {
-    // TODO: 暂时没想好那些是被需要的助手类
+    // TODO: 暂时没想好哪些是被需要的助手方法
 };
 
 /* 注册应用类 */
@@ -45,4 +45,3 @@ $container['app'] = function (\Pimple\Container $container) {
 };
 
 return $container;
-
